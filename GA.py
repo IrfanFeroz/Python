@@ -80,8 +80,8 @@ for k in range(0,100):
     for i in range(0,3):
         populationy[indexess[i]] = subpopulationy[i]; 
 
-    print(k,min(fvalue)/100)
+    print(k,max(fvalue)/100)
 
 print(populationx)
 print(populationy)
-print(min(fvalue)/100)
+print(max(fvalue)/100)
